@@ -195,6 +195,12 @@ public class MusicOrganizer
         System.out.println("No tracks available to shuffle and play.");
         return;
         }
+        
+        List<Integer> indices = new ArrayList<>();
+         for (int i = 0; i < tracks.size(); i++) 
+         {
+         indices.add(i);
+         }
 
 }
 }
